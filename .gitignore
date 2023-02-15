@@ -49,6 +49,9 @@ latex.out/
 *.alg
 *.loa
 
+# lua-typo
+*.typo
+
 # achemso
 acs-*.bib
 
