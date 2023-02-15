@@ -1,8 +1,63 @@
-\documentclass{memoir}
+\documentclass[article,11pt]{memoir}
+\usepackage[spanish,mexico,es-noindentfirst]{babel}
 \usepackage{microtype}
+\usepackage{chemformula}
+\usepackage[backend=biber,style=apa]{biblatex}
+\addbibresource{lim.bib}
+
+%\usepackage[All]{lua-typo}
+
+\setlength{\droptitle}{-3.5cm}
+
+\title{\texttt{Cambio climático un ecocidio}}
+\renewcommand{\maketitlehookb}{\centering Licenciatura de Ciencia de Datos para Negocios \textsc{LCDN}}
+\author{Karina García Buendía}
+\date{febrero de 2023}
+
+\OnehalfSpacing
 
 \begin{document}
-\chapter{Bla}
-\section{Foo}
-Hola mundo!
+
+\maketitle
+\subsection*{Problema prototípico}
+
+Durante la última década, el tema del cambio climático ha estado presente: gobiernos, grandes empresas, universidades, etcétera; se han dado a la tarea de informar, tomar conciencia y dar paso para un mundo sostenible. Sin embargo, los programas que se han puesto en marcha no se reflejan en un estancamiento de la temperatura en la Tierra. 
+
+Desde su adolescencia, la joven sueca Greta Thunberg protesta contra los gobiernos que no tomaban en serio la emergencia climática, no solo ha señalado la falta de compromiso de los gobiernos del mundo, sino que implementó un cambio de hábitos en su vida que fuera coherente con su activismo. Ella entendió que la producción del \ch{CO2} que se acumula en la atmósfera impide el intercambio de gases, por lo que la Tierra se convierte en una especie de gran invernadero, lo cual da como resultado un acelerado aumento en la temperatura del planeta.
+
+Hasta nuestro días y de acuerdo con la base de datos, con registros desde el comienzo de la Revolución Industrial (1750), la temperatura de la Tierra aumentó entre 1.1 y 1.3 grados Celsius hasta nuestros días.
+
+Para hacer frente al problema, 197 países firmaron el Acuerdo de París el 12 de diciembre de 2015. En este se propuso reducir las emisiones de gases de efecto invernadero para mantener el aumento de temperatura global, en este siglo, por debajo \(2\;^\circ C\) e incluso por de bajo de \(1.5\;^\circ C\).\footnote{El acuerdo lo firmaron 197 países, algunos noticieros afirman que fueron 194 y otros 195.} Para lograr este objetivo los países deben establecer leyes y políticas que ayuden a controlar las emisiones de \ch{CO2}. Pero en 2018 solo 16 países, de los 195 que se comprometieron, cumplieron con lo acordado~\parencite{Jornada1}.
+
+Después de la pandemia de la \textsc{covid}-19 y el retorno a la normalidad, se registraron las emisiones de \ch{CO2} más alta de toda la historia. De acuerdo con la \textsc{nasa} estadounidense, el año 2022 fue el quinto año con la temperatura promedio más elevada desde 1880~\parencite{Promedio}.
+
+De las consecuencias más graves se encuentra la extinción de flora y fauna. La Unión Internacional para la Conservación de la Naturaleza reveló que más de 8 400 especies están en peligro y 30 mil se consideran vulnerables. México siendo un país con flora y fauna endémica, hay 912 especies amenazadas y 535 en peligro de extinción: como es la vaquita marina, la mariposa monarca, el jaguar, entre otras~\parencite{Especies}.
+
+Otra consecuencia será los severos problemas de miseria, hambre y carencia de agua para un gran número de habitantes; se estima que entre 3 300 y 3 600 millones de personas viven en este contexto. Los fenómenos meteorológicos como el aumento de olas de calor, sequías e inundaciones colocarán a la población de África, Asia, América Central y del Sur en una situación de vulnerabilidad según el informe del Grupo Intergubernamental de Expertos sobre el Cambio Climático de la \textsc{onu}~\parencite{Informe}. En México, en el 2022, se tuvo un aumento de temperatura de \(1.7\;^\circ C\), más que la temperatura promedio global. Las zonas más afectadas son el norte del país pues aumentó hasta \(6\;^\circ C\) por siglo y en el sur que tuvo un aumento de \(5\;^\circ C\)~\parencite{Promedio}.
+
+Un camino que se está tomando para frenar este ecocidio es la implementación de energías limpias como son las geotérmicas, se extrae energía del calor que se encuentra en el centro de la tierra, energía solar, eólica, hidráulica, entre otras. Estas energías, aunque no son de emisión cero, reducir los gases nocivos para el medio ambiente y bajan el costo de los servicios.
+
+Con esta problemática, algunas interrogantes que nos ayudan a reflexionar y habituarnos a una vida más sustentable son:
+\begin{enumerate}
+  \item ¿Cuáles son las consecuencias para el medio ambiente de consumir una gran cantidad de energía?
+  \item ¿Puedo medir mi consumo de energía?
+  \item ¿Cómo puedo reducir mi consumo de energía?
+  \item ¿Los costos de implementar una energía limpia son viables?
+  \item ¿Puedo implementar alguna energía limpia en mi casa, barrio o escuela?
+  \item En general, ¿qué prácticas podemos implementar para reducir las emisiones de \ch{CO2}?
+\end{enumerate}
+
+\subsection*{Evidencia integradora}
+Las y los estudiantes de tercer semestre de la carrera de \textsc{lcdn} realizarán un video de entre 5 y 7 minutos en donde expliquen los puntos más importante de su investigación y que muestre como utilizaron las diferentes herramientas de las materias que cursaron este semestre. Durante el proceso, se hará una investigación del problema mundial y a nivel nacional en donde se contestarán las siguientes preguntas: ¿porqué es necesario implementar energías alternativas?, ¿cómo se pueden implementar?; además, se realizará una conclusión acerca de la proyección que se puede lograr si se implementan estas medidas. Se podrán utilizar, gráficas, fotos y otros recursos para la grabación del video de divulgación.
+
+\subsection*{Incidente crítico de la materia de cálculo diferencial}
+\subsubsection*{Reducir las emisiones de carbono con una función real}
+Los científicos subrayan la urgencia en solucionar el problema, si bien, los gobiernos deben incrementar sus compromisos, es muy importante que la sociedad en su conjunto concrete acciones y contribuya desde grupos de jóvenes, iniciativa privada y sociedad civil. Si se llegara a un calentamiento de 1.5 grados, las oportunidades tanto para la mitigación como para la adaptación al cambio climático son pocas~\parencite{Urge}.
+
+Pero, ¿por qué las personas deben seguir tomando medidas contra el cambio climático?, ¿qué tanto contribuye los pequeños cambios al problema? Thunberg dijo: ``nuestras acciones son importantes no porque tengan un efecto material sobre el cambio climático, sino por el mensaje que envían a los demás''; el cambio climático no es un fenómeno binario, es decir, sucede o no sucede. Lo que debemos preguntarnos es: ¿cuánto cambio climático experimentará el mundo?~\parencite{Thunberg}.
+
+Por esta razón, las y los estudiantes de la materia de Cálculo diferencial analizarán una función real que modele las emisiones de \ch{CO2}, tanto al consumir energía fósil tanto como en una limpia. Además, modelaran con una función los costos en donde se pueda comparar los costos en los dos tipos de energía. De ser posible, se pedirá a las y los estudiantes minimizar tanto emisiones de gas como costos.
+
+\printbibliography
+
 \end{document}
